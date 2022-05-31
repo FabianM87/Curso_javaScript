@@ -52,18 +52,18 @@ alert(`${cantidadUsuarios} usuarios Jugando`)
 
 const cuestionario = [{
         pregunta: "¿cual es el color verde?",
-        opciones: ["Color1 ", "  Color2 ", "  Color3 "],
-        respuestaOk: "Color2",
+        opciones: ["Este no es ", "  ES ESTE!!! ", "  Te pasaste es el anterior "],
+        respuestaOk: "  ES ESTE!!! ",
     },
     {
         pregunta: "¿cual es el color rojo?",
-        opciones: ["  Color1 ", "  Color2 ", "  Color3 "],
-        respuestaOk: "Color3",
+        opciones: ["  Yo no soy ", "  Segui, este tampoco es ", " SOY YO "],
+        respuestaOk: " SOY YO ",
     },
     {
         pregunta: "¿cual es el color azul?",
-        opciones: ["  Color1 ", "  Color2 ", "  Color3 "],
-        respuestaOk: "Color1",
+        opciones: ["  Si soy el correcto ", "Casi, pero no", "  Yo no soy "],
+        respuestaOk: "  Si soy el correcto",
     },
 ];
 alert(cuestionario[0].pregunta)
