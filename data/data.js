@@ -1,5 +1,5 @@
 export const data = [{
-        pregunta: "¿cual es el color verde?",
+        pregunta: "cual es el color verde?",
         choices: ["Este no es ", "  ES ESTE!!! ", "  Te pasaste es el anterior "],
         respuestaOk: "  ES ESTE!!! ",
     },

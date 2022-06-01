@@ -1,7 +1,7 @@
 export class Question {
-    constructor(pregunta, opciones, respuestaOk) {
+    constructor(pregunta, choices, respuestaOk) {
         this.pregunta = pregunta;
-        this.opciones = [opciones];
+        this.choices = [choices];
         this.respuestaOk = respuestaOk;
     }
     respuestaCorrecta(opcion) {
